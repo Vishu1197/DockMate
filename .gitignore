@@ -1,0 +1,39 @@
+# ---- DockMate output -------------------------------------------------------
+vina_out/
+*.pdbqt
+*.conf
+summary.csv
+all_poses.csv
+
+# ---- structures (usually too large / not yours to redistribute) ------------
+*.mol2
+*.pdb
+*.ent
+*.sdf
+*.mae
+
+# ---- Chimera ---------------------------------------------------------------
+*.com
+*.py.orig
+.chimera/
+
+# ---- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---- editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
